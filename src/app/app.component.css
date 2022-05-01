@@ -1,0 +1,18 @@
+.rhs-1, .rhs-2{
+    margin-left: 40%;
+}
+
+.rhs{
+    display: flex;
+    margin-left: 60%;
+}
+.backlog{
+    /* color: red; */
+    background-color: orange;
+}
+.inprogress{
+    background-color: yellow;
+}
+.done{
+    background-color: lightgreen;
+}

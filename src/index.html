@@ -6,8 +6,30 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDLZmyz7WGGaCtpBfuWT9_HEXKYdc7J1Pk",
+    authDomain: "ezy-money-d6c0f.firebaseapp.com",
+    projectId: "ezy-money-d6c0f",
+    storageBucket: "ezy-money-d6c0f.appspot.com",
+    messagingSenderId: "439607590713",
+    appId: "1:439607590713:web:01c891fe7f5f22b447f2e8"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+<body class="mat-typography">
   <app-root></app-root>
 </body>
 </html>

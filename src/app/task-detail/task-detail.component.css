@@ -1,0 +1,31 @@
+.det-container {
+    margin: 1%;
+    padding: 1%;
+    /* border: 1px solid; */
+    font-size: 24px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.name ,.second, .third, .fourth{
+    display: flex;
+}
+
+.name > label, .second> label, .third > label, .fourth> label {
+    margin-left: 50px
+}
+.name > input, .second>input, .third > textarea, .fourth > input {
+    margin-left: 50px
+    
+}
+textarea {
+    width: 90%;
+    max-height: 100px;
+}
+.credInput {
+    background-color: greenyellow;
+}
+.mt-15 {
+    margin: 10px;
+    padding: 10px;
+}
+
